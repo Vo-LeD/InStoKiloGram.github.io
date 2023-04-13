@@ -1,0 +1,441 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-size: 25px;
+  line-height: 1.6;
+  font-family: 'Poppins', sans-serif;
+}
+
+.top{
+  background-color:#274986;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 50px;
+
+}
+
+.container{
+
+  width: 100%;
+  max-width: 1200px;
+  
+}
+
+
+.header{
+  background-color:#4e7ac9;
+  max-width: 60%;
+  width: 100%;
+  height: 40px;
+  position: absolute;
+  top: 1.3%;
+  left: 30%;
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+}
+
+.nav_link{
+  margin: 0 20px;
+  color: #fff;
+  text-decoration: none;
+  transition: color .2s linear;
+  font-size: 15px;
+  font-weight: 700;
+  position: relative;
+  right: 0;
+  width: 100px;
+}
+
+.nav_link:hover{
+  color: #858585;
+}
+
+.logoname{
+  height: 20px;
+  position: absolute;
+  font-weight: 700;
+  color: white;
+  left: 10%;
+  top: 1.4%;
+  right: 0;
+}
+
+.topnav{
+  position: absolute;
+  left: 30.5%;
+  top: 1%;
+  right: 0;
+  max-width: 600px;
+}
+
+.topnav input[type=text] {
+  float: none;
+  padding: 6px;
+  margin-top: 5px;
+  margin-right: 16px;
+  border: none;
+  font-size: 17px;
+}
+
+ 
+
+  .contact{
+  padding-right: 50px;   
+  margin: 0 auto;  
+  display: flex;
+  justify-content: right;
+  align-items: center;
+   position: absolute;
+   top: 1.3%;
+  left: 22%;
+
+
+}
+
+.con{
+  margin: 0 8px;
+
+  z-index: 10; 
+  display: inline-block;
+  justify-content: space-between;
+  max-height: 30px;
+  transition: color .2s linear;
+}
+
+
+.primasectie {
+  padding-left: 15%;
+  padding-top: 12%;
+  max-width: 800px;
+}
+
+.bruce {
+  position: absolute;
+  top: 10%;
+  left: 13.5%;
+  height: 400px;
+  width: 250px;
+}
+
+.denumire-desc {
+  margin-left: 31.5%;
+  margin-top: 50px;
+  position: absolute;
+  top: 0%;
+}
+
+.denumire-desc p{
+  font-size: 15px;
+  width: 550px;
+  position: absolute;
+  top: 60%;
+  line-height: 1.2;
+}
+
+.vl1 {
+  border-left: 2px solid #919191;
+  height: 1100px;
+  margin-left: 30%;
+  position: absolute;
+  top: 7.2%;
+}
+
+.vl2 {
+  border-left: 2px solid #919191;
+  height: 1100px;
+  margin-left: 90%;
+  position: absolute;
+  top: 7.2%;
+}
+
+.row {
+  padding-top: 4%;
+  padding-left: 31.5%;
+  height: 150px;
+}
+
+.column {
+  padding-left: 4px;
+}
+
+.rand{
+  width: 100px;
+}
+
+.actiuni {
+  color: black;
+  text-decoration: none;
+  font-size: 15px;
+  transition: color .2s linear;
+  align-items: center;
+}
+
+.vl3 {
+width: 550px;
+position: absolute;
+left: 31.5%;
+top: 20%;
+}
+
+a:link { text-decoration: none; }
+
+.actiuni a:hover{
+  color: #93faaf;
+}
+
+.actiuni img{
+  width: 20px;
+  padding-left: 5px;
+}
+
+.news1  {
+  height: 222px;
+  width: 550px;
+  padding-top: 17.5%;
+  padding-left: 31.5%;
+}
+
+.nume{
+  position: absolute;
+  top: 37%;
+  left: 37%;
+  font-size: 15px;
+}
+
+.sec2 {
+  padding-left: 100px;
+  position: absolute;
+  top: 43%;
+  width: 500px;
+}
+
+.familia {
+  font-size: 18px;
+  position:  absolute;
+  top:  6%;
+  left: 57%;
+
+}
+
+.vl4{
+  width: 550px;
+  position: absolute;
+  left: 31.5%;
+  top: 68.5%;
+}
+
+.text{
+  font-size: 15px;
+}
+
+.news2  {
+  height: 160px;
+  width: 550px;
+  padding-top: 35px;
+  padding-left: 15px;
+}
+
+.nume2{
+  position: absolute;
+  top: 73%;
+  left: 37%;
+  font-size: 15px;
+}
+
+.sec22 {
+  padding-left: 100px;
+  position: absolute;
+  top: 77.5%;
+  left: 31.5%;
+  width: 500px;
+}
+
+.sec22 p{
+  width: 400px;
+}
+
+.news3  {
+  height: 222px;
+  width: 550px;
+  padding-top: 17.5%;
+  padding-left: 31.5%;
+}
+
+.nume3{
+  position: absolute;
+  top: 125%;
+  left: 37.5%;
+  font-size: 15px;
+}
+
+.sec23 {
+  padding-left: 100px;
+  position: absolute;
+  top: 130%;
+  width: 500px;
+}
+
+.garaj {
+  position: absolute;
+  top: 125%;
+  left: 31.5%;
+}
+
+.familia2 {
+  font-size: 18px;
+  position:  absolute;
+  top:  6%;
+  left: 57%;
+
+}
+
+.vl5{
+  width: 550px;
+  position: absolute;
+  left: 31.5%;
+  top: 120%;
+}
+
+.lateral {
+  position: absolute;
+  left: 14%;
+  top: 25%;
+  font-size: 18px;
+}
+
+.lateral a:hover{
+  color: #93faaf;
+}
+
+.prieteni{
+  display: flex;
+  align-items: center;
+    padding-top: 5px;
+}
+
+.prieteni div{
+  padding-left: 5px;
+
+  }
+
+.friendsevents{
+  position: absolute;
+  top: 25%;
+  left: 68%;
+  right: 0;
+  background-color: #9e9e9e;
+  height: 25px;
+  width: 300px;
+}
+
+.see-all a{
+  padding-left: 120px;
+}
+
+.see-all{
+  padding-left: 5px;
+}
+
+.sponsori{
+  position: absolute;
+  top: 60%;
+  left: 68%;
+  right: 0;
+  background-color: #9e9e9e;
+  height: 25px;
+  width: 300px;
+}
+
+.spon{
+  padding-left: 5px;
+  padding-top: 3px;
+   display: flex;
+  align-items: center;
+    
+}
+
+.spon img{
+  padding-right: 5px;
+}
+
+.like{
+  width: 20px;
+  position: absolute;
+  top: 85%;
+  left: 0%;
+}
+
+.comment{
+  width: 20px;
+  position: absolute;
+  top: 85%;
+  left: 7%;
+}
+
+.like2{
+  width: 20px;
+  position: absolute;
+  top: 85%;
+  left: 0%;
+}
+
+.comment2{
+  width: 20px;
+  position: absolute;
+  top: 85%;
+  left: 7%;
+}
+
+.news{
+  background-color: #c7c7c;
+}
+
+.actiuni{
+  position: absolute;
+  top: 23%;
+  left: 31.5%;
+}
+
+.topnav2{
+  position: absolute;
+  left: 30.5%;
+  top: 27%;
+  right: 0;
+  max-width: 600px;
+}
+
+.topnav2 input[type=text] {
+  float: none;
+  padding: 6px;
+  margin-top: 5px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+.brusfoto img{
+  width: 75px;
+  position: absolute;
+  top: 12%;
+  left: 14%;
+}
+
+
+.spreprofile{
+  position: absolute;
+  top: 12.5%;
+  left: 20%;
+  font-size: 15px;
+  line-height: 0;
+  color: black;
+}
+
+.zinatop{
+  position: absolute;
+  left: 31.5%;
+
+}
