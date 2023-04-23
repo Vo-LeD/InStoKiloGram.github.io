@@ -439,3 +439,9 @@ a:link { text-decoration: none; }
   left: 31.5%;
 
 }
+
+.icons{
+  padding-left: 4%;
+  padding-top: 6%;
+  color: black;
+}
